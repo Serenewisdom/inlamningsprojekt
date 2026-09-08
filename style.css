@@ -1,7 +1,35 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #9c9999;
         }
+
+        .sidebar {
+            position: fixed;
+            width: 180px;
+            height: 40vh;
+            padding: 10px;
+            background-color: #30733e;
+            border-radius: 12px;
+        }
+
+        .sidebar h2 {
+            width: auto;
+            color: white;
+            background: none;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px 0;
+            color: white;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
         h1 {
             width: 646px;
             margin: 0 auto;
@@ -11,7 +39,9 @@
             padding: 10px 15px;
             overflow: hidden;
             text-align: center;
+            border-radius: 6px;
         }
+
         h6 {
             width: 646px;
             margin: 0 auto;
@@ -21,7 +51,9 @@
             padding: 10px 15px;
             overflow: hidden;
             text-align: center;
+            border-radius: 6px;
         }
+
         h2 {
             width: 646px;
             margin: 0 auto;
@@ -31,7 +63,14 @@
             padding: 10px 15px;
             overflow: hidden;
             text-align: center;
+            border-radius: 6px;
         }
+
         .center {
             text-align: center;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
         }
