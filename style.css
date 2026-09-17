@@ -6,7 +6,7 @@
 
 body {
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 200px 1fr;
   grid-template-rows: 1fr 8fr 1fr;
   grid-template-areas:
     "header header"
@@ -164,4 +164,8 @@ section article {
   padding: 10px 20px;
   background-color: #f0f0f0;
   margin-top: 5px;
+}
+
+img {
+  border-radius: 6px;
 }
