@@ -169,3 +169,95 @@ section article {
 img {
   border-radius: 6px;
 }
+
+.knapp {
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e8eaed;
+}
+
+body.dark-mode header,
+body.dark-mode main,
+body.dark-mode footer {
+  color: #e8eaed;
+}
+
+body.dark-mode .sidebar {
+  background-color: #1f2a1f;
+  border: 1px solid #2f3f2f;
+}
+
+body.dark-mode .sidebar h2,
+body.dark-mode .sidebar a,
+body.dark-mode .center,
+body.dark-mode p,
+body.dark-mode h2,
+body.dark-mode h6,
+body.dark-mode h1 {
+  color: #f3f4f6;
+}
+
+body.dark-mode .sidebar a:hover {
+  text-decoration: underline;
+}
+
+body.dark-mode .texter {
+  background-color: #2a2a2a;
+  color: #f3f4f6;
+}
+
+body.dark-mode .texter a {
+  background-color: #3b3b3b;
+  border-color: #5d5d5d;
+  color: #f3f4f6;
+}
+
+body.dark-mode h1 {
+  background-color: #2a2a2a;
+  color: #f3f4f6;
+  border: 1px solid #3a3a3a;
+}
+
+body.dark-mode h6 {
+  background-color: #1f1f1f;
+  color: #dfe7f5;
+  border: 1px solid #3a3a3a;
+}
+
+body.dark-mode h2 {
+  background-color: #1f1f1f;
+  color: #e8eaed;
+  border: 1px solid #3a3a3a;
+}
+
+body.dark-mode .content section,
+body.dark-mode section article,
+body.dark-mode article {
+  background-color: #1e1e1e;
+  border-color: #3a3a3a;
+  color: #e8eaed;
+}
+
+body.dark-mode footer {
+  background-color: #121212;
+  color: #dfe7f5;
+}
+
+body.dark-mode button {
+  background-color: #8ab4f8;
+  color: #111827;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+body.dark-mode button:hover {
+  background-color: #a8c7ff;
+}
